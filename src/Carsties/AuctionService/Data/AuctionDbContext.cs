@@ -18,7 +18,7 @@ namespace AuctionService.Data
 
             modelBuilder.AddInboxStateEntity();
             modelBuilder.AddOutboxMessageEntity();
-            modelBuilder.AddInboxStateEntity();
+            modelBuilder.AddOutboxStateEntity();
         }
     }
 }
